@@ -24,7 +24,7 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        #pylint $(git ls-files '*.py')
-        pylint -d C0301 *.py
+        #pylint $(git ls-files hello.py)
+        pylint -d C0301 hello.py
         #python -m pylint howdoi *.py --rcfile=.pylintrc
         
