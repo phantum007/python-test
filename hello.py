@@ -1,11 +1,12 @@
-import numpy as np
+""" hi i am file """
+
 import time
-import pandas as pd
 
-Captain='Picard'
+CAPTAIN = 'Picard'
 
-def InitiateWarpSpeed(order):
-    if order=="engage":
+def nitial_name(order):
+    """ i am nintial """
+    if order == "engage":
         print("initiating warp speed")
     else:
         print("you are not the captain of this vessel")
