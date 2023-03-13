@@ -1,6 +1,5 @@
 """ hi i am file """
 
-import time
 
 CAPTAIN = 'Picard'
 
@@ -11,4 +10,4 @@ def nitial_name(order):
     else:
         print("you are not the captain of this vessel")
 
-InitiateWarpSpeed("engage")
+nitial_name("engage")
