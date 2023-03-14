@@ -10,7 +10,7 @@ format:
 
 
 lint:
-	pylint 
+	pylint hello.py
 	# --disable=R,C hello.py
 
 all: install lint test
