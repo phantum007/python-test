@@ -1,13 +1,10 @@
-""" hi i am file """
+def toyou(x):
+    return f"hi {x}"
 
 
-CAPTAIN = 'Picard'
+def add(x):
+    return x + 1
 
-def nitial_name(order):
-    """ i am nintial """
-    if order == "engage":
-        print("initiating warp speed")
-    else:
-        print("you are not the captain of this vessel")
 
-nitial_name("engage")
+def subtract(x):
+    return x - 1
